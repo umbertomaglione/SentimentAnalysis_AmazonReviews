@@ -110,11 +110,11 @@ This model is particularly versatile, since it can easilly capture non-linear pa
 
 # My results
 
-![Vader Barplot](C:\Users\umagl\OneDrive\Documenti\Learning\Python\sentiment_analysis_amazon\vader_barplot.png "Vader Barplot")
+![Vader Barplot](C:\Users\umagl\OneDrive\Documenti\Learning\Python\SentimentAnalysis_AmazonReviews\vader_barplot.png "Vader Barplot")
 
 As expected, the results from VADER match the observed scores.
 
-![Vader-Roberta Pairplot](C:\Users\umagl\OneDrive\Documenti\Learning\Python\sentiment_analysis_amazon\pairplot.png "Vader-Roberta Pairplot")
+![Vader-Roberta Pairplot](C:\Users\umagl\OneDrive\Documenti\Learning\Python\SentimentAnalysis_AmazonReviews\pairplot.png "Vader-Roberta Pairplot")
 
 The pairplot doesn't show any anomalies. When confronted to the VADER scores, Roberta is more conservative when using the Neutral label.
 
@@ -143,7 +143,7 @@ The F-score is an harmonic mean of the model's precision and recall. The results
 
 We notice that the results are very disappointing for the negative and neutral features. This reflects a bias for 5-stars reviews present in our data, rather than models' imperfections.
 
-![Reviews distribution](C:\Users\umagl\OneDrive\Documenti\Learning\Python\sentiment_analysis_amazon\stars.png "Stars")
+![Reviews distribution](C:\Users\umagl\OneDrive\Documenti\Learning\Python\SentimentAnalysis_AmazonReviews\stars.png "Stars")
 
 Furthermore, I manually balanced the dataset to account for this bias. The results significantly improve, also (or mainly) due to the larger sample-size. I also noticed a tradeoff between positive and negative accuracy for the Decision Tree.
 
