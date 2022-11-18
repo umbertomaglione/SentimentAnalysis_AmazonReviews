@@ -110,7 +110,7 @@ This model is particularly versatile, since it can easilly capture non-linear pa
 
 # My results
 
-![ScreenShot](C:\Users\umagl\OneDrive\Documenti\Learning\Python\SentimentAnalysis_AmazonReviews\vader_barplot.png "Vader Barplot")
+![ScreenShot](https://github.com/umbertomaglione/SentimentAnalysis_AmazonReviews/blob/main/vader_barplot.png "Vader Barplot")
 
 As expected, the results from VADER match the observed scores.
 
@@ -143,7 +143,7 @@ The F-score is an harmonic mean of the model's precision and recall. The results
 
 We notice that the results are very disappointing for the negative and neutral features. This reflects a bias for 5-stars reviews present in our data, rather than models' imperfections.
 
-![Reviews distribution](C:\Users\umagl\OneDrive\Documenti\Learning\Python\SentimentAnalysis_AmazonReviews\stars.png "Stars")
+![ScreenShot](https://github.com/umbertomaglione/SentimentAnalysis_AmazonReviews/blob/main/stars.png "Stars")
 
 Furthermore, I manually balanced the dataset to account for this bias. The results significantly improve, also (or mainly) due to the larger sample-size. I also noticed a tradeoff between positive and negative accuracy for the Decision Tree.
 
