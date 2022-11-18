@@ -114,7 +114,7 @@ This model is particularly versatile, since it can easilly capture non-linear pa
 
 As expected, the results from VADER match the observed scores.
 
-![ScreenShot](C:\Users\umagl\OneDrive\Documenti\Learning\Python\SentimentAnalysis_AmazonReviews\pairplot.png "Vader-Roberta Pairplot")
+![ScreenShot](https://github.com/umbertomaglione/SentimentAnalysis_AmazonReviews/blob/main/pairplot.png "Vader-Roberta Pairplot")
 
 The pairplot doesn't show any anomalies. When confronted to the VADER scores, Roberta is more conservative when using the Neutral label.
 
